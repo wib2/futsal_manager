@@ -5,7 +5,7 @@
 ```env
 DB_HOST=127.0.0.1
 DB_USER=root
-DB_PASSWORD=1234
+DB_PASSWORD=mysql 비밀번호
 DB_NAME=futsal_app
 DB_PORT=3306
 PORT=4000
