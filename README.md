@@ -9,6 +9,7 @@ DB_PASSWORD=1234
 DB_NAME=futsal_app
 DB_PORT=3306
 PORT=4000
+```
 
 ## database 파일에 sql문 있습니다.
 
