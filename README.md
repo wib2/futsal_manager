@@ -1,3 +1,4 @@
+## mysql 실행하시고 서버키고 프론트 켜야합니다.
 ## ⚙️ 서버 환경 변수 설정
 
 `futsal_server` 폴더 내부에 `.env` 파일을 생성하고, 아래 내용을 복사해서 저장해주세요.
@@ -10,7 +11,6 @@ DB_NAME=futsal_app
 DB_PORT=3306
 PORT=4000
 ```
-
 ## database 파일에 sql문 있습니다.
 
 
