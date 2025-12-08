@@ -1,4 +1,4 @@
-
+-- 기초 데이터 선수 등록
 INSERT INTO players (id, name, position, is_active) VALUES 
 ('p01', '강민성', '필드', 1),
 ('p02', '강종혁', '필드', 1),
