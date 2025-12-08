@@ -1,4 +1,4 @@
--- 포지션은 오직 '필드'와 'GK'만 사용
+
 INSERT INTO players (id, name, position, is_active) VALUES 
 ('p01', '강민성', '필드', 1),
 ('p02', '강종혁', '필드', 1),
