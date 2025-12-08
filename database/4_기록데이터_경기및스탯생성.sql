@@ -1,4 +1,4 @@
--- [경기 일정] 9경기 (GK ID 컬럼 삭제됨 -> 점수만 입력)
+-- [경기 일정] 9경기 
 INSERT INTO matches (id, session_id, seq, home_squad_id, away_squad_id, home_score, away_score) VALUES 
 -- 1회전
 ('m01', 's01', 1, 'sqA', 'sqB', 2, 0), -- A승
@@ -15,7 +15,7 @@ INSERT INTO matches (id, session_id, seq, home_squad_id, away_squad_id, home_sco
 ('m08', 's01', 8, 'sqB', 'sqC', 2, 1), -- B승
 ('m09', 's01', 9, 'sqC', 'sqA', 0, 2); -- A승
 
--- [경기 기록] (is_cleansheet 컬럼 삭제됨 -> 골/어시만 입력)
+-- [경기 기록]
 INSERT INTO match_records (match_id, player_id, goals, assists) VALUES 
 ('m01', 'p01', 1, 1), ('m01', 'p05', 1, 0), -- 1경기: 강민성, 배호성
 ('m02', 'p12', 2, 0), ('m02', 'p08', 1, 0), -- 2경기: 장지영(멀티골), 윤호석
